@@ -1,0 +1,30 @@
+{
+  "name": "homebridge-slide-remote",
+  "version": "0.1.0",
+  "description": "A homebridge plugin for the Slide curtain motor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://renssies@github.com/renssies/homebridge-slide-remote.git"
+  },
+  "keywords": [
+    "slide",
+    "homebridge-plugin",
+    "homekit",
+    "curtain",
+    "motor"
+  ],
+  "engines": {
+    "homebridge": "^0.4.46",
+    "node": "^10.0"
+  },
+  "author": "Rens Verhoeven",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renssies/homebridge-slide-remote/issues"
+  },
+  "homepage": "https://github.com/renssies/homebridge-slide-remote#readme"
+}
