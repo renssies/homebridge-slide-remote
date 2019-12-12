@@ -1,4 +1,4 @@
-### This plugin is still work in progress. See the todos and known issues below. Development of this plugin might be slow due to some personal issues. 
+#### This plugin is still work in progress. See the todos and known issues below. Development of this plugin might be slow due to some personal issues. 
 
 # Homebridge Slide Remote
 A homebridge plugin to use the [Slide](https://slide.store) curtain motor in HomeKit using Homebridge.
