@@ -31,10 +31,16 @@ After that you will need to enter the following details into the ~/.homebridge/c
 Now start of restart homebridge and all slides connected to your account should appear in the HomeKit app. 
 
 # Known Issues
-- [ ] Opening/closing the curtains using the Slide app or other plugins does not currently reflect the state correctly in HomeKit. 
 - [ ] The expiration of the access token isn't currently handled. This means the homekit accessory will stop working a month after the launch of Homebridge. Restarting homebridge will fix this issue. 
-- [ ] HomeKit apps will sometimes incorrectly report that the curtain is still moving, while it is already done opening. 
+
 - [ ] The code is far from perfect or optimized, my knowledge of NodeJS isn't the best.
+
+**I've currently implemented a work around for the following issues, however I'm still testing it**
+
+- [ ] Opening/closing the curtains using the Slide app or other plugins does not currently reflect the state correctly in HomeKit. 
+- [ ] HomeKit apps will sometimes incorrectly report that the curtain is still moving, while it is already done opening. 
+
+Please let me know if you are expieriencing the above issues. 
 
 # Todo
 - [ ] Handle expiration of the access token.
