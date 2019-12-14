@@ -1,6 +1,8 @@
 #### This plugin is still work in progress. See the todos and known issues below. Development of this plugin might be slow due to some personal issues. 
 
 # Homebridge Slide Remote
+![npm](https://img.shields.io/npm/v/homebridge-slide-remote)
+
 A homebridge plugin to use the [Slide](https://slide.store) curtain motor in HomeKit using Homebridge.
 
 The name is "Slide Remote" on purpose, this version uses the [open cloud API](https://documenter.getpostman.com/view/6223391/S1Lu2pSf) (V1.0) that is provided by Innovation in Motion. 
@@ -9,10 +11,10 @@ Once the local API or module API (for the header pins) becomes available I will 
 
 # Installation
 
-Currently the plugin is not registered in the NPM registry because the plugin is till too much WIP. Therefor manual installation is required. The following command can be used to install the plugin:
+The following command can be used to install the plugin on the Homebridge server:
 
 ```bash
-npm install -g https://github.com/renssies/homebridge-slide-remote.git
+npm install -g homebridge-slide-remote
 ```
 
 After that you will need to enter the following details into the ~/.homebridge/config.json:
