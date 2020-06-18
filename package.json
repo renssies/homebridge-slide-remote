@@ -1,6 +1,6 @@
 {
   "name": "homebridge-slide-remote",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A homebridge plugin for the Slide curtain motor",
   "main": "index.js",
   "scripts": {
@@ -18,8 +18,8 @@
     "motor"
   ],
   "engines": {
-    "homebridge": "^0.4.46",
-    "node": "^10.0"
+    "homebridge": ">0.4.46",
+    "node": ">10.0"
   },
   "author": "Rens Verhoeven",
   "license": "MIT",
